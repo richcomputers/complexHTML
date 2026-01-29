@@ -1,0 +1,56 @@
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.btn {
+  padding: 12px 22px;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.hero-card,
+.feature-card,
+.pricing-card {
+  background: white;
+  padding: 30px;
+  border-radius: var(--radius);
+}
+
+.pricing-card.featured {
+  border: 2px solid var(--primary);
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: var(--radius);
+  border: 1px solid #cbd5f5;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: var(--dark);
+  color: white;
+}
