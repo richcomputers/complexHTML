@@ -5,3 +5,10 @@
   --gray: #64748b;
   --radius: 8px;
 }
+:root {
+  --primary: #2563eb;
+  --dark: #0f172a;
+  --light: #f8fafc;
+  --gray: #64748b;
+  --radius: 8px;
+}

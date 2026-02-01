@@ -50,3 +50,34 @@
   color: var(--primary);
   font-weight: 600;
 }
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1000;
+  transition: box-shadow 0.3s ease;
+}
+
+.header.scrolled {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.hero-grid,
+.features-grid,
+.pricing-grid {
+  display: grid;
+  gap: 30px;
+}
